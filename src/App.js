@@ -4,14 +4,14 @@ import Header from './Components/Header'
 import Main from './Components/Main'
 import Footer from './Components/Footer'
 
-export class App extends Component {
+class App extends Component {
   render() {
     return (
       <div>
         <Header/>
 
         <Main/>
-        
+
         <Footer/>
       </div>
     )
