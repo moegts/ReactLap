@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class HornedBeasts extends Component {
+class HornedBeasts extends Component {
     render() {
         return (
             <div>
