@@ -1,5 +1,5 @@
 {
-  "name": "my-first-project",
+  "name": "reactlap",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,8 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.12"
   }
 }
