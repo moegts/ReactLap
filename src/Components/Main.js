@@ -8,7 +8,7 @@ class Main extends Component {
             <div>
                 {
                     Data.map(i=>{
-                        return < HornedBeasts image_url = { i.image_url } title = {i.title} description = {i.description} keyword = {i.keyword} horns = {i.horns}/>
+                        return < HornedBeasts handleOpen={this.props.handleOpen} image_url = { i.image_url } title = {i.title} description = {i.description} keyword = {i.keyword} horns = {i.horns} getHandleOpen = {this.gitHandleOpen}/>
                     })
                 }
             </div>
