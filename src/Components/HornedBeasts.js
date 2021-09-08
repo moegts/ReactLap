@@ -10,6 +10,7 @@ class HornedBeasts extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            sort: 'asc',
             LikesCounter: 0,
         }
     }
@@ -18,12 +19,12 @@ class HornedBeasts extends Component {
             LikesCounter: this.state.LikesCounter + 1
         })
     }
-    gitHandleOpen=()=>{
-        
-        let image_url=this.props.image_url;
-        let title=this.props.title;
-        let horns=this.props.horns;
-        let description=this.props.description;
+    gitHandleOpen = () => {
+
+        let image_url = this.props.image_url;
+        let title = this.props.title;
+        let horns = this.props.horns;
+        let description = this.props.description;
         this.props.handleOpen(image_url, title, horns, description);
 
     }
@@ -38,7 +39,7 @@ class HornedBeasts extends Component {
                 <h4>{this.props.horns}</h4> */}
                 <Col>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={this.props.image_url} onClick={this.plus1Like} alt='imgReact' title={this.props.title}/>
+                        <Card.Img variant="top" src={this.props.image_url} onClick={this.plus1Like} alt='imgReact' title={this.props.title} />
                         <Card.Body>
                             <Card.Title>{this.props.keyword}</Card.Title>
                             <Card.Text>
