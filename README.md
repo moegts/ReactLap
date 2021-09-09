@@ -31,3 +31,12 @@ Estimate of time needed to complete: 1 hour
 Start time: 9:30 pm
 Finish time: 11:30 pm
 Actual time needed to complete: 2 hours
+
+## Day 4 (8/9/2021)
+
+### Feature 1: Filter by Numbers of Horns
+
+Estimate of time needed to complete: 2 hour
+Start time: 9:30 pm
+Finish time: 11:30 pm
+Actual time needed to complete: 2 hours
